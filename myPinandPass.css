@@ -1,0 +1,72 @@
+body{
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.header-wrapper{
+  background-color: coral;
+  width: 100%;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.label-text{
+  font-size: 14px;
+  font-weight: bold;
+}
+.every-wrapper{
+  border: 1px solid coral;
+  width: 80%;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: all ease 0.3s;
+}
+.security-wrapper{
+  width: 90%;
+  background-color: aliceblue;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: all ease 0.3s;
+}
+.pin-text{
+  font-size: 14px;
+  font-weight: bold;
+  color: coral;
+}
+.password-text{
+  font-size: 14px;
+  font-weight: bold;
+  color: coral;
+}
+.go-btn{
+  width: 80%;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: coral;
+  color: white;
+  transition: all ease 0.3s;
+  cursor: pointer;
+  border: none;
+}
+.link-stuff{
+  width: 100%;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
